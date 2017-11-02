@@ -1,0 +1,25 @@
+'use strict';
+
+// nodimal v1.0.0 by Mukunda Johnson
+// A Very Useful Software
+
+// ANIMAL LIST IMPLEMENTATION
+var animals = ['dog', 'cat', 'goat'];
+
+var randomPick = function randomPick(source) {
+  return source[Math.floor(Math.random() * source.length)];
+};
+
+/**
+ * Picks a random animal.
+ *
+ * Animal will not be a subtype of an animal. For example, "dog" is distinct, and it will not return any other dog breeds.
+ *
+ * @returns string
+ */
+function randomAnimal() {
+  return randomPick(animals);
+}
+
+module.exports = { randomAnimal: randomAnimal };
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9qcy9pbmRleC5qcyJdLCJuYW1lcyI6WyJhbmltYWxzIiwicmFuZG9tUGljayIsInNvdXJjZSIsIk1hdGgiLCJmbG9vciIsInJhbmRvbSIsImxlbmd0aCIsInJhbmRvbUFuaW1hbCIsIm1vZHVsZSIsImV4cG9ydHMiXSwibWFwcGluZ3MiOiI7O0FBQUE7QUFDQTs7QUFFQTtBQUNBLElBQU1BLFVBQVUsQ0FDZixLQURlLEVBQ1IsS0FEUSxFQUNELE1BREMsQ0FBaEI7O0FBSUEsSUFBTUMsYUFBYSxTQUFiQSxVQUFhO0FBQUEsU0FBVUMsT0FBT0MsS0FBS0MsS0FBTCxDQUFXRCxLQUFLRSxNQUFMLEtBQWdCSCxPQUFPSSxNQUFsQyxDQUFQLENBQVY7QUFBQSxDQUFuQjs7QUFFQTs7Ozs7OztBQU9BLFNBQVNDLFlBQVQsR0FBd0I7QUFBRSxTQUFPTixXQUFZRCxPQUFaLENBQVA7QUFBK0I7O0FBRXpEUSxPQUFPQyxPQUFQLEdBQWlCLEVBQUVGLDBCQUFGLEVBQWpCIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gbm9kaW1hbCB2MS4wLjAgYnkgTXVrdW5kYSBKb2huc29uXHJcbi8vIEEgVmVyeSBVc2VmdWwgU29mdHdhcmVcclxuXHJcbi8vIEFOSU1BTCBMSVNUIElNUExFTUVOVEFUSU9OXHJcbmNvbnN0IGFuaW1hbHMgPSBbXHJcblx0J2RvZycsICdjYXQnLCAnZ29hdCdcclxuXTtcclxuXHJcbmNvbnN0IHJhbmRvbVBpY2sgPSBzb3VyY2UgPT4gc291cmNlW01hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIHNvdXJjZS5sZW5ndGgpXTtcclxuXHJcbi8qKlxyXG4gKiBQaWNrcyBhIHJhbmRvbSBhbmltYWwuXHJcbiAqXHJcbiAqIEFuaW1hbCB3aWxsIG5vdCBiZSBhIHN1YnR5cGUgb2YgYW4gYW5pbWFsLiBGb3IgZXhhbXBsZSwgXCJkb2dcIiBpcyBkaXN0aW5jdCwgYW5kIGl0IHdpbGwgbm90IHJldHVybiBhbnkgb3RoZXIgZG9nIGJyZWVkcy5cclxuICpcclxuICogQHJldHVybnMgc3RyaW5nXHJcbiAqL1xyXG5mdW5jdGlvbiByYW5kb21BbmltYWwoKSB7IHJldHVybiByYW5kb21QaWNrKCBhbmltYWxzICk7IH1cclxuXHJcbm1vZHVsZS5leHBvcnRzID0geyByYW5kb21BbmltYWwgfTtcclxuIl19
