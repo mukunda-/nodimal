@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mukunda-/nodimal/issues"
   },
-  "homepage": "https://github.com/mukunda-/nodimal#readme"
+  "homepage": "https://github.com/mukunda-/nodimal#readme",
+  "devDependencies": {
+    "jsdoc": "^3.5.5"
+  }
 }
