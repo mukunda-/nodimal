@@ -27,7 +27,7 @@
     "babel-preset-env": "^1.6.1",
     "coveralls": "^3.0.0",
     "jsdoc": "^3.5.5",
-    "nyc": "^11.3.0",
+    "nyc": "11.1.0",
     "uglify-js": "^3.1.6"
   }
 }
