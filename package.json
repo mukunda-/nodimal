@@ -1,0 +1,19 @@
+{
+  "name": "nodimal",
+  "version": "1.0.0",
+  "description": "For all of your random animal needs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukunda-/nodimal.git"
+  },
+  "author": "Mukunda Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mukunda-/nodimal/issues"
+  },
+  "homepage": "https://github.com/mukunda-/nodimal#readme"
+}
