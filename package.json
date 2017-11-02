@@ -1,6 +1,6 @@
 {
   "name": "nodimal",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "For all of your random animal needs.",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
     "minify": "uglifyjs --compress --mangle -o build/index.min.js -- build/index.js",
     "babel": "babel src/js -d build/",
     "test": "nyc ava src/tests/*.js",
+    "travis": "nyc report --reporter=text-lcov | coveralls",
     "make": "npm run babel && npm run minify && npm run docs"
   },
   "repository": {
