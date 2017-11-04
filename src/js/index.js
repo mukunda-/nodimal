@@ -3,7 +3,7 @@
 
 // ANIMAL LIST IMPLEMENTATION
 const animals = [
-	'dog', 'cat', 'goat'
+	'dog', 'cat', 'goat', 'lion'
 ];
 
 const randomPick = source => source[Math.floor(Math.random() * source.length)];
